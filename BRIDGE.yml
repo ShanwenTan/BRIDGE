@@ -1,0 +1,22 @@
+name: bridge
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch=2.0.*
+  - torchvision=0.15.*
+  - torchaudio=2.0.*
+  - pytorch-cuda=11.8
+  - numpy=1.23.*
+  - pandas=1.5.*
+  - scipy=1.9.*
+  - scikit-learn=1.1.*
+  - matplotlib
+  - tqdm
+  - pyyaml
+  - joblib
+  - pip:
+      - git+https://github.com/GraphCL/GCL.git
